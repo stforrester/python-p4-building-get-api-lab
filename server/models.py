@@ -1,5 +1,5 @@
 from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy import MetaData
+from sqlalchemy import MetaData, desc
 from sqlalchemy_serializer import SerializerMixin
 
 metadata = MetaData(naming_convention={
